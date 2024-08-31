@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#feedback-overview,
+#detailed-feedback-links,
+#teacher-comments-summary {
+    list-style-type: none;
+    padding: 0;
+}
+
+#feedback-overview li,
+#detailed-feedback-links li,
+#teacher-comments-summary li {
+    margin-bottom: 10px;
+}
+
+#detailed-feedback-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#detailed-feedback-links a:hover {
+    text-decoration: underline;
+}
+
+.progress-bar {
+    margin-bottom: 10px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

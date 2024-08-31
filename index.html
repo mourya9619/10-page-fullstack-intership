@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Feedback Summary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assessment Feedback Summary</h1>
+
+        <!-- Feedback Overview -->
+        <div class="feedback-section">
+            <h2>Feedback Overview</h2>
+            <p>Your overall performance across all assessments is summarized below:</p>
+            <ul id="feedback-overview">
+                <li>Assessment 1: Great job! Keep up the good work.</li>
+                <li>Assessment 2: Need to work on time management.</li>
+                <li>Assessment 3: Excellent understanding of concepts.</li>
+            </ul>
+        </div>
+
+        <!-- Detailed Feedback Links -->
+        <div class="feedback-section">
+            <h2>Detailed Feedback</h2>
+            <ul id="detailed-feedback-links">
+                <li><a href="#">View detailed feedback for Assessment 1</a></li>
+                <li><a href="#">View detailed feedback for Assessment 2</a></li>
+                <li><a href="#">View detailed feedback for Assessment 3</a></li>
+            </ul>
+        </div>
+
+        <!-- Progress Indicators -->
+        <div class="feedback-section">
+            <h2>Progress Indicators</h2>
+            <p>Overall progress and areas of strength or improvement:</p>
+            <div id="progress-indicators">
+                <div class="progress-bar">
+                    <label>Understanding:</label>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <label>Time Management:</label>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <label>Participation:</label>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Teacher Comments Summary -->
+        <div class="feedback-section">
+            <h2>Teacher Comments Summary</h2>
+            <ul id="teacher-comments-summary">
+                <li>Assessment 1: "Great improvement since the last test."</li>
+                <li>Assessment 2: "Focus on revising key concepts."</li>
+                <li>Assessment 3: "Outstanding performance!"</li>
+            </ul>
+        </div>
+
+        <!-- Download Feedback Summary -->
+        <div class="feedback-section">
+            <button onclick="downloadFeedback()">Download Feedback Summary</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
